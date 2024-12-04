@@ -1,0 +1,119 @@
+@media screen and (max-width: 600px) {
+    html {
+        font-size: 15px;
+    }
+
+    header img {
+        width: 50%;
+    }
+
+    #main {
+        flex-direction: column;
+    }
+
+    #menu,
+    #content {
+        width: 100%;
+    }
+
+    #menu {
+        padding: 10px 0;
+    }
+
+    #menu span {
+        display: none;
+    }
+
+    #menu ul {
+        display: flex;
+        margin: 0;
+        justify-content: center;
+        gap: 30px;
+    }
+    #content {
+        padding: 20px 10px;
+        box-sizing: border-box;
+    }
+    .pc-card {
+        flex-direction: column;
+        margin: 20px auto;
+        padding: 20px;
+        border-radius: 25px;
+        gap: 20px;
+    }
+
+    .pc-card img,
+    .pc-card span {
+        width: 100%;
+    }
+
+    .pc-card span {
+        padding: 0;
+        text-align: center;
+    }
+
+    footer {
+        padding: 20px 0;
+        text-align: center;
+    }
+
+
+}
+@media (max-width: 1024px) and (min-width: 600px) {
+    header img {
+        width: 60%;
+
+    }
+
+    #main {
+        flex-direction: column-reverse;
+    }
+
+    #menu,
+    #content {
+        width: 100%;
+    }
+
+    #menu {
+        padding: 10px 0;
+    }
+
+    #menu span {
+        display: none;
+    }
+
+    #menu ul {
+        display: flex;
+        margin: 0;
+        justify-content: center;
+        gap: 30px;
+    }
+    #content {
+        padding: 15px 10px;
+        box-sizing: border-box;
+    }
+    .pc-card {
+        flex-direction: column;
+        margin: 20px auto;
+        padding: 20px;
+        border-radius: 25px;
+        gap: 20px;
+    }
+
+    .pc-card img,
+    .pc-card span {
+        width: 100%;
+    }
+
+    .pc-card span {
+        padding: 0;
+        text-align: center;
+    }
+    footer {
+        padding: 30px 20px;
+    }
+
+    footer span {
+        font-size: 16px;
+    }
+}
